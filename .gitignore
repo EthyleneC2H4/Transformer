@@ -1,0 +1,66 @@
+# =========================
+# Python & 环境相关
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# 虚拟环境 (Virtual Environments)
+venv/
+env/
+.venv/
+conda_env/
+
+# =========================
+# PyTorch & 机器学习核心文件
+# =========================
+# 模型权重和检查点 (防止再次被 push 到 GitHub)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+weights/
+checkpoints/
+models/
+
+# =========================
+# 数据集 & 缓存
+# =========================
+*.csv
+*.tsv
+*.dat
+*.pkl
+*.npy
+*.npz
+data/
+datasets/
+
+# =========================
+# 日志 & 可视化工具
+# =========================
+# TensorBoard
+runs/
+# Weights & Biases
+wandb/
+# 训练日志
+*.log
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE & 操作系统配置
+# =========================
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
